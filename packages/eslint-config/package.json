@@ -1,0 +1,46 @@
+{
+  "name": "@tryrolljs/eslint-config",
+  "description": "ESLint configuration for Roll applications",
+  "version": "0.0.9",
+  "main": "./.eslintrc.js",
+  "devDependencies": {
+    "@react-native-community/eslint-config": "^3.1.0",
+    "@typescript-eslint/eslint-plugin": "^5.33.1",
+    "@typescript-eslint/parser": "^5.33.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-typescript": "^3.5.0",
+    "eslint-plugin-ft-flow": "^2.0.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^26.5.3",
+    "eslint-plugin-prettier": "^4.2.1"
+  },
+  "peerDependencies": {
+    "@react-native-community/eslint-config": "^3.1.0",
+    "@typescript-eslint/eslint-plugin": "^5.33.1",
+    "@typescript-eslint/parser": "^5.33.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-typescript": "^3.5.0",
+    "eslint-plugin-ft-flow": "^2.0.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^26.5.3",
+    "eslint-plugin-prettier": "^4.2.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/TuringAdvisoryGroup/tryrolljs/tree/main/packages/eslint-config",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TuringAdvisoryGroup/tryrolljs.git"
+  },
+  "engines": {
+    "npm": "~8.3.1",
+    "node": "16.14.0"
+  },
+  "keywords": [
+    "lint",
+    "eslint",
+    "config"
+  ]
+}
